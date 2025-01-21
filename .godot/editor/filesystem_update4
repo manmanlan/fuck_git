@@ -1,7 +1,14 @@
-res://main.tscn
+res://character/mavillage.tscn
 res://Scenes/Dungeon Build TIleset1.tres
+res://character/player_1.tscn
+res://main.tscn
 res://room_2.tscn
 res://Scenes/Dungeon Rooms Preset.tscn
 res://Scenes/dungeon room start.tscn
 res://Scenes/Dungeon Only Walls.tscn
 res://procedeal.tscn
+res://default_bus_layout.tres
+res://max/mavillage.tscn
+res://max/player_1.tscn
+res://max/musicnsound.gd
+res://max/player_1.gd

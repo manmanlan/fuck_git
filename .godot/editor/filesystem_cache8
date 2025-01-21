@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+
 ::res://::1737461792
 bow1.tscn::PackedScene::1447483071542874114::1737451486::0::1::::<><>::res://Scripts/bow_1.gd<>uid://c2i6c6gtt5aje::::res://Assets/New Piskel-1.png (4).png
 bow1_pickup.tscn::PackedScene::597365477555348914::1737451486::0::1::::<><>::res://Scripts/bow_1_pickup.gd<>uid://c2i6c6gtt5aje::::res://Assets/New Piskel-1.png (4).png
@@ -104,3 +105,4 @@ player.gd::GDScript::-1::1737451486::0::1::::<>CharacterBody2D<>::
 procedeal.gd::GDScript::-1::1737451486::0::1::::<>Node2D<>::
 sword_1.gd::GDScript::-1::1737451486::0::1::::<>Node2D<>::
 sword_1_pickp.gd::GDScript::-1::1737451486::0::1::::<>Area2D<>::
+

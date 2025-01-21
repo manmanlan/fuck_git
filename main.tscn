@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://c5a0yllv2jlfd"]
+[gd_scene load_steps=6 format=3 uid="uid://c5a0yllv2jlfd"]
 
 [ext_resource type="PackedScene" uid="uid://dbsv47i7p5va6" path="res://player.tscn" id="1_ffgq3"]
+[ext_resource type="AudioStream" uid="uid://b2kjdrl6pej61" path="res://Assets/2017 Roblox Tycoon music.mp3" id="2_21b5g"]
 [ext_resource type="PackedScene" uid="uid://irmr0ufltxwc" path="res://bow1_pickup.tscn" id="2_k42n8"]
 [ext_resource type="PackedScene" uid="uid://cy37jtf252aor" path="res://sword1_pickp.tscn" id="5_csdlv"]
 [ext_resource type="PackedScene" uid="uid://bm1ypsg65n3nw" path="res://procedeal.tscn" id="6_om0js"]
@@ -11,6 +12,11 @@
 
 [node name="Camera2D" type="Camera2D" parent="player"]
 zoom = Vector2(3, 3)
+
+[node name="2017RobloxTycoonMusic" type="AudioStreamPlayer" parent="player"]
+stream = ExtResource("2_21b5g")
+pitch_scale = 0.51
+autoplay = true
 
 [node name="bow1 spawner" parent="." instance=ExtResource("2_k42n8")]
 position = Vector2(-139, 26)

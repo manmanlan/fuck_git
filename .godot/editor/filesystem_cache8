@@ -1,5 +1,23 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737479206
+
+::res://::1737466533
+bow1.tscn::PackedScene::1447483071542874114::1737463280::0::1::::<><>::res://Scripts/bow_1.gd<>uid://c2i6c6gtt5aje::::res://Assets/New Piskel-1.png (4).png
+bow1_pickup.tscn::PackedScene::597365477555348914::1737463280::0::1::::<><>::res://Scripts/bow_1_pickup.gd<>uid://c2i6c6gtt5aje::::res://Assets/New Piskel-1.png (4).png
+bow_1.gd::GDScript::-1::1737463280::0::1::::<>Node2D<>::
+bow_1_pickup.gd::GDScript::-1::1737463280::0::1::::<>Area2D<>::
+bullet.gd::GDScript::-1::1737463280::0::1::::<>Area2D<>::
+bullet.tscn::PackedScene::9076901867424094895::1737463280::0::1::::<><>::res://Scripts/bullet.gd<>uid://cqmrpfwtkpomh::::res://Assets/New Piskel-1.png (5).png
+door.gd::GDScript::-1::1737463280::0::1::::<>Area2D<>::
+door_left.gd::GDScript::-1::1737463280::0::1::::<>Area2D<>::
+enemey_bullet.tscn::PackedScene::3037610081378312646::1737463280::0::1::::<><>::res://enemy_bullet.gd<>uid://b1cgoiob6fo3e::::res://icon.svg
+enemy.gd::GDScript::-1::1737463280::0::1::::<>CharacterBody2D<>::
+enemy.tscn::PackedScene::3683956264074738911::1737463280::0::1::::<><>::res://Scripts/enemy.gd<>uid://b25yislanfhi8::::res://Assets/New Piskel (4).png
+enemy_bullet.gd::GDScript::-1::1737463280::0::1::::<>Area2D<>::
+enemy_shooty.gd::GDScript::-1::1737463280::0::1::::<>CharacterBody2D<>::
+enemy_shooty.tscn::PackedScene::6230855615684615233::1737463280::0::1::::<><>::res://enemy_shooty.gd<>uid://b25yislanfhi8::::res://Assets/New Piskel (4).png
+enemy_shooty_double.gd::GDScript::-1::1737463280::0::1::::<>CharacterBody2D<>::
+enemy_shooty_double.tscn::PackedScene::2607264056182242122::1737463280::0::1::::<><>::res://enemy_shooty_double.gd<>uid://b25yislanfhi8::::res://Assets/New Piskel (4).png
+Global.gd::GDScript::-1::1737463280::0::1::::<>Node<>::
 icon.svg::CompressedTexture2D::4215849118762468396::1737463280::1737463384::1::::<><>::
 main.tscn::PackedScene::6880068056140344497::1737478294::0::1::::<><>::uid://dbsv47i7p5va6::::res://Scenes/player.tscn<>uid://irmr0ufltxwc::::res://Scenes/bow1_pickup.tscn<>uid://cy37jtf252aor::::res://Scenes/sword1_pickp (2).tscn<>uid://bm1ypsg65n3nw::::res://Scenes/procedeal (2).tscn
 village.tscn::PackedScene::6032683089706506599::1737474051::0::1::::<><>::uid://bwsg8je2k106w::::res://Assets/seasonal sample (summer).png<>uid://dbsv47i7p5va6::::res://Scenes/player.tscn
@@ -114,3 +132,4 @@ sword_1 (2).gd::GDScript::-1::1737463280::0::1::::<>Node2D<>::
 sword_1.gd::GDScript::-1::1737463280::0::1::::<>Node2D<>::
 sword_1_pickp (2).gd::GDScript::-1::1737463280::0::1::::<>Area2D<>::
 sword_1_pickp.gd::GDScript::-1::1737463280::0::1::::<>Area2D<>::
+

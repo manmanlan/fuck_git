@@ -3,7 +3,7 @@ extends Area2D
 
 
 
-const ROOM_2 = preload("res://room_2.tscn")
+const ROOM_2 s= preload("res://room_2.tscn")
 var v1 = true
 
 func _on_body_entered(body: Node2D) -> void:

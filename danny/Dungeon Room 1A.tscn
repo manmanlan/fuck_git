@@ -2,11 +2,11 @@
 
 [ext_resource type="Texture2D" uid="uid://by64mcaahxvri" path="res://Assets/decorative.png" id="1_xpo7a"]
 [ext_resource type="Texture2D" uid="uid://xstselkg206r" path="res://Assets/mainlevbuild.png" id="2_lp1rd"]
-[ext_resource type="PackedScene" uid="uid://dbsv47i7p5va6" path="res://Scenes/player (2).tscn" id="3_xuom5"]
-[ext_resource type="PackedScene" uid="uid://b68615tba2vuf" path="res://Scenes/Torch 1A.tscn" id="4_mai55"]
-[ext_resource type="PackedScene" uid="uid://d1b5jrd54wre5" path="res://Scenes/Candle 2B.tscn" id="5_phjxt"]
-[ext_resource type="PackedScene" uid="uid://8k1onauprcj6" path="res://Scenes/Candle 1A.tscn" id="6_qgmnj"]
-[ext_resource type="PackedScene" uid="uid://7pd0u1rhi0nh" path="res://Scenes/Chest 1A.tscn" id="7_68gcj"]
+[ext_resource type="PackedScene" uid="uid://dbsv47i7p5va6" path="res://Scenes/player.tscn" id="3_xuom5"]
+[ext_resource type="PackedScene" uid="uid://b68615tba2vuf" path="res://danny/Torch 1A.tscn" id="4_mai55"]
+[ext_resource type="PackedScene" uid="uid://d1b5jrd54wre5" path="res://danny/Candle 2B.tscn" id="5_phjxt"]
+[ext_resource type="PackedScene" uid="uid://8k1onauprcj6" path="res://danny/Candle 1A.tscn" id="6_qgmnj"]
+[ext_resource type="PackedScene" uid="uid://7pd0u1rhi0nh" path="res://danny/Chest 1A.tscn" id="7_68gcj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_opys3"]
 texture = ExtResource("1_xpo7a")

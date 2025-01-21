@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cr7jn56k8hilj"]
 
-[ext_resource type="Texture2D" uid="uid://bwsg8je2k106w" path="res://seasonal sample (summer).png" id="1_1suho"]
+[ext_resource type="Texture2D" uid="uid://bwsg8je2k106w" path="res://Assets/seasonal sample (summer).png" id="1_1suho"]
 [ext_resource type="PackedScene" uid="uid://dbsv47i7p5va6" path="res://Scenes/player.tscn" id="3_yc50y"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4jgri"]

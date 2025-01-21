@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://cu1jjtuajkg3r"]
 
-[ext_resource type="Script" path="res://enemy_shooty.gd" id="1_quen5"]
+[ext_resource type="Script" path="res://Scripts/enemy_shooty.gd" id="1_quen5"]
 [ext_resource type="Texture2D" uid="uid://b25yislanfhi8" path="res://Assets/New Piskel (4).png" id="2_uar1f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q6vbw"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://7pd0u1rhi0nh"]
+[gd_scene load_steps=8 format=3 uid="uid://7pd0u1rhi0nh"]
 
 [ext_resource type="Texture2D" uid="uid://bugihev6fvkwr" path="res://Assets/chest-ss.png" id="1_amhkx"]
 
@@ -38,6 +38,16 @@ animations = [{
 "speed": 4.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jv0ve"]
+size = Vector2(28, 19)
+
 [node name="AnimatedSprite2D" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_p83fv")
 frame_progress = 0.766809
+
+[node name="Area2D" type="Area2D" parent="."]
+disable_mode = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 2.5)
+shape = SubResource("RectangleShape2D_jv0ve")

@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://b62apwotr8aww"]
+[gd_scene load_steps=2 format=3 uid="uid://gul51agjrabg"]
 
-[ext_resource type="Script" path="res://danny/settings_menu.gd" id="1_d14xe"]
+[ext_resource type="Script" path="res://danny/settings_menu.gd" id="1_v5y8g"]
 
 [node name="Main Menu" type="Control"]
 layout_mode = 3
@@ -9,7 +9,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_d14xe")
+script = ExtResource("1_v5y8g")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 0
@@ -25,22 +25,17 @@ layout_mode = 2
 layout_mode = 2
 text = "Master Volume"
 
-[node name="HSlider" type="HSlider" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-
 [node name="Sound Effect Volume" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Sound Effect Volume"
-
-[node name="HSlider2" type="HSlider" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
 
 [node name="Music Volume" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Music Volume"
 
-[node name="HSlider3" type="HSlider" parent="MarginContainer/VBoxContainer"]
+[node name="Volume4" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+text = "Volume"
 
 [node name="Back" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2

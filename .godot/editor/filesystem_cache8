@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737567476
+
+::res://::1737561092
 icon.svg::CompressedTexture2D::4215849118762468396::1737463280::1737463384::1::::<><>::
 main.tscn::PackedScene::6880068056140344497::1737567476::0::1::::<><>::uid://dbsv47i7p5va6::::res://Scenes/player.tscn<>uid://irmr0ufltxwc::::res://Scenes/bow1_pickup.tscn<>uid://cy37jtf252aor::::res://Scenes/sword1_pickp.tscn<>uid://bm1ypsg65n3nw::::res://Scenes/procedeal (2).tscn
 village.tscn::PackedScene::6032683089706506599::1737474051::0::1::::<><>::uid://bwsg8je2k106w::::res://Assets/seasonal sample (summer).png<>uid://dbsv47i7p5va6::::res://Scenes/player.tscn

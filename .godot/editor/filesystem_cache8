@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737469104
+::res://::1737558468
 bow1.tscn::PackedScene::1447483071542874114::1737451486::0::1::::<><>::res://Scripts/bow_1.gd<>uid://c2i6c6gtt5aje::::res://Assets/New Piskel-1.png (4).png
 bow1_pickup.tscn::PackedScene::597365477555348914::1737451486::0::1::::<><>::res://Scripts/bow_1_pickup.gd<>uid://c2i6c6gtt5aje::::res://Assets/New Piskel-1.png (4).png
 bow_1.gd::GDScript::-1::1737451486::0::1::::<>Node2D<>::
@@ -18,14 +18,14 @@ enemy_shooty_double.gd::GDScript::-1::1737451486::0::1::::<>CharacterBody2D<>::
 enemy_shooty_double.tscn::PackedScene::2607264056182242122::1737451486::0::1::::<><>::res://enemy_shooty_double.gd<>uid://b25yislanfhi8::::res://Assets/New Piskel (4).png
 Global.gd::GDScript::-1::1737451486::0::1::::<>Node<>::
 icon.svg::CompressedTexture2D::4215849118762468396::1737451486::1737455749::1::::<><>::
-main.tscn::PackedScene::6880068056140344497::1737465898::0::1::::<><>::uid://dbsv47i7p5va6::::res://player.tscn<>uid://b2kjdrl6pej61::::res://Assets/2017 Roblox Tycoon music.mp3<>uid://irmr0ufltxwc::::res://bow1_pickup.tscn<>uid://cy37jtf252aor::::res://sword1_pickp.tscn<>uid://bm1ypsg65n3nw::::res://procedeal.tscn
+main.tscn::PackedScene::6880068056140344497::1737469131::0::1::::<><>::uid://dbsv47i7p5va6::::res://player.tscn<>uid://b2kjdrl6pej61::::res://Assets/2017 Roblox Tycoon music.mp3<>uid://irmr0ufltxwc::::res://bow1_pickup.tscn<>uid://cy37jtf252aor::::res://sword1_pickp.tscn<>uid://bm1ypsg65n3nw::::res://procedeal.tscn
 map.gd::GDScript::-1::1737451486::0::1::::<>Node2D<>::
 open_door.tscn::PackedScene::1551338949610017024::1737451486::0::1::::<><>::res://Scenes/door.gd
 player.gd::GDScript::-1::1737451486::0::1::::<>CharacterBody2D<>::
 player.tscn::PackedScene::7267938233742571219::1737451486::0::1::::<><>::res://Scripts/player.gd<>uid://c27dghbswawjp::::res://Assets/New Piskel (3).png
 procedeal.gd::GDScript::-1::1737451486::0::1::::<>Node2D<>::
-procedeal.tscn::PackedScene::3283845579828273512::1737465076::0::1::::<><>::res://Scripts/procedeal.gd
-room_2.tscn::PackedScene::4136633561753635426::1737465075::0::1::::<><>::res://Scripts/map.gd<>uid://d11qc4sgmn36e::::res://Assets/New Piskel (6).png<>uid://b0vteeutilfbt::::res://Assets/New Piskel (2).png
+procedeal.tscn::PackedScene::3283845579828273512::1737469132::0::1::::<><>::res://Scripts/procedeal.gd
+room_2.tscn::PackedScene::4136633561753635426::1737469131::0::1::::<><>::res://Scripts/map.gd<>uid://d11qc4sgmn36e::::res://Assets/New Piskel (6).png<>uid://b0vteeutilfbt::::res://Assets/New Piskel (2).png
 seasonal sample (summer).png::CompressedTexture2D::3968157756588890472::1737451486::1737455749::1::::<><>::
 sword1_pickp.tscn::PackedScene::6517136214661907013::1737451486::0::1::::<><>::res://Scripts/sword_1_pickp.gd<>uid://b02ljwb2wlxgk::::res://Assets/New Piskel-1.png (6).png
 sword_1.gd::GDScript::-1::1737451486::0::1::::<>Node2D<>::
@@ -60,7 +60,17 @@ torch_1.png::CompressedTexture2D::931154947666084861::1737451486::1737455749::1:
 torch_2.png::CompressedTexture2D::6512042541354836946::1737451486::1737455749::1::::<><>::
 torch_3.png::CompressedTexture2D::8609057143881777551::1737451486::1737455749::1::::<><>::
 torch_4.png::CompressedTexture2D::1061838323210232046::1737451486::1737455749::1::::<><>::
-::res://Scenes/::1737465076
+::res://danny/::1737469280
+decorative Blood 1.png::CompressedTexture2D::5262726935055389486::1737469280::1737558471::1::::<><>::
+Dungeon Build TIleset1.tres::TileSet::5789197894210907640::1737469280::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png
+Dungeon Only Walls.tscn::PackedScene::5355312771914803827::1737469280::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png<>res://Scenes/door.gd<>res://Scenes/door_2.gd<>res://Scenes/door_checker.gd<>res://Scenes/door_checker_2.gd<>res://Scenes/doory.gd<>res://Scenes/door_checkery.gd<>res://Scenes/doory_2.gd<>res://Scenes/door_checkery_2.gd
+Dungeon Room 1A.tscn::PackedScene::5168849039933156674::1737469280::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png<>uid://dbsv47i7p5va6::::res://Scenes/player (2).tscn<>uid://b68615tba2vuf::::res://Scenes/Torch 1A.tscn<>uid://d1b5jrd54wre5::::res://Scenes/Candle 2B.tscn<>uid://8k1onauprcj6::::res://Scenes/Candle 1A.tscn<>uid://7pd0u1rhi0nh::::res://Scenes/Chest 1A.tscn
+Dungeon Room Alter.tscn::PackedScene::33173406151599733::1737469280::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png<>uid://dbsv47i7p5va6::::res://Scenes/player (2).tscn<>uid://cg8klxl240gkk::::res://Assets/decorative Blood 1.png<>uid://d1b5jrd54wre5::::res://Scenes/Candle 2B.tscn<>uid://8k1onauprcj6::::res://Scenes/Candle 1A.tscn<>uid://7pd0u1rhi0nh::::res://Scenes/Chest 1A.tscn<>uid://b68615tba2vuf::::res://Scenes/Torch 1A.tscn
+Dungeon Room Boss1 L1.tscn::PackedScene::1209420776876834527::1737469280::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png<>uid://dbsv47i7p5va6::::res://player.tscn
+Dungeon Room Start 1L.tscn::PackedScene::2270730701392860080::1737469280::0::1::::<><>::uid://coqlijqy3syu7::::res://Scenes/Dungeon Build TIleset1.tres<>uid://8k1onauprcj6::::res://Scenes/Candle 1A.tscn<>uid://d1b5jrd54wre5::::res://Scenes/Candle 2B.tscn<>uid://b68615tba2vuf::::res://Scenes/Torch 1A.tscn<>uid://7pd0u1rhi0nh::::res://Scenes/Chest 1A.tscn
+dungeon room start.tscn::PackedScene::4529478165825918761::1737469280::0::1::::<><>::uid://coqlijqy3syu7::::res://Scenes/Dungeon Build TIleset1.tres<>uid://8k1onauprcj6::::res://Scenes/Candle 1A.tscn<>uid://d1b5jrd54wre5::::res://Scenes/Candle 2B.tscn<>uid://b68615tba2vuf::::res://Scenes/Torch 1A.tscn<>res://Scenes/doorys.gd<>res://Scenes/doorys_2.gd<>res://Scenes/doorys_3.gd<>res://Scenes/doorys_4.gd<>uid://7pd0u1rhi0nh::::res://Scenes/Chest 1A.tscn
+Dungeon Rooms Preset.tscn::PackedScene::4490902280887191638::1737469280::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png<>uid://dbsv47i7p5va6::::res://Scenes/player (2).tscn
+::res://Scenes/::1737469132
 bow1.tscn::PackedScene::1447483071542874114::1737451486::0::1::::<><>::res://Scripts/bow_1.gd<>uid://c2i6c6gtt5aje::::res://Assets/New Piskel-1.png (4).png
 bow1_pickup.tscn::PackedScene::597365477555348914::1737451486::0::1::::<><>::res://Scripts/bow_1_pickup.gd<>uid://c2i6c6gtt5aje::::res://Assets/New Piskel-1.png (4).png
 bullet.tscn::PackedScene::9076901867424094895::1737451486::0::1::::<><>::res://Scripts/bullet.gd<>uid://cqmrpfwtkpomh::::res://Assets/New Piskel-1.png (5).png
@@ -80,10 +90,10 @@ door_checkery.gd::GDScript::-1::1737451486::0::1::::<>Area2D<>::
 door_checkery_2.gd::GDScript::-1::1737451486::0::1::::<>Area2D<>::
 door_checker_2.gd::GDScript::-1::1737451486::0::1::::<>Area2D<>::
 door_left.gd::GDScript::-1::1737451486::0::1::::<>Area2D<>::
-Dungeon Build TIleset1.tres::TileSet::5789197894210907640::1737464828::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png
-Dungeon Only Walls.tscn::PackedScene::5355312771914803827::1737465076::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png<>res://Scenes/door.gd<>res://Scenes/door_2.gd<>res://Scenes/door_checker.gd<>res://Scenes/door_checker_2.gd<>res://Scenes/doory.gd<>res://Scenes/door_checkery.gd<>res://Scenes/doory_2.gd<>res://Scenes/door_checkery_2.gd
-dungeon room start.tscn::PackedScene::6144589815438269925::1737465075::0::1::::<><>::uid://coqlijqy3syu7::::res://Scenes/Dungeon Build TIleset1.tres<>uid://8k1onauprcj6::::res://Scenes/Candle 1A.tscn<>uid://d1b5jrd54wre5::::res://Scenes/Candle 2B.tscn<>uid://b68615tba2vuf::::res://Scenes/Torch 1A.tscn<>res://Scenes/doorys.gd<>res://Scenes/doorys_2.gd<>res://Scenes/doorys_3.gd<>res://Scenes/doorys_4.gd
-Dungeon Rooms Preset.tscn::PackedScene::4490902280887191638::1737465075::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png
+Dungeon Build TIleset1.tres::TileSet::5789197894210907640::1737469131::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png
+Dungeon Only Walls.tscn::PackedScene::5355312771914803827::1737469132::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png<>res://Scenes/door.gd<>res://Scenes/door_2.gd<>res://Scenes/door_checker.gd<>res://Scenes/door_checker_2.gd<>res://Scenes/doory.gd<>res://Scenes/door_checkery.gd<>res://Scenes/doory_2.gd<>res://Scenes/door_checkery_2.gd
+dungeon room start.tscn::PackedScene::6144589815438269925::1737469131::0::1::::<><>::uid://coqlijqy3syu7::::res://Scenes/Dungeon Build TIleset1.tres<>uid://8k1onauprcj6::::res://Scenes/Candle 1A.tscn<>uid://d1b5jrd54wre5::::res://Scenes/Candle 2B.tscn<>uid://b68615tba2vuf::::res://Scenes/Torch 1A.tscn<>res://Scenes/doorys.gd<>res://Scenes/doorys_2.gd<>res://Scenes/doorys_3.gd<>res://Scenes/doorys_4.gd
+Dungeon Rooms Preset.tscn::PackedScene::4490902280887191638::1737469131::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png
 enemy.tscn::PackedScene::3683956264074738911::1737451486::0::1::::<><>::res://Scripts/enemy.gd<>uid://b25yislanfhi8::::res://Assets/New Piskel (4).png
 map.tscn::PackedScene::1698306366580644997::1737451486::0::1::::<><>::uid://b0vteeutilfbt::::res://Assets/New Piskel (2).png<>res://Scripts/map.gd<>uid://d11qc4sgmn36e::::res://Assets/New Piskel (6).png
 open_door.tscn::PackedScene::1551338949610017024::1737451486::0::1::::<><>::res://Scenes/door.gd

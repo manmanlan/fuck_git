@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737559992
+::res://::1737559329
 icon.svg::CompressedTexture2D::4215849118762468396::1737559284::1737559330::1::::<><>::
 main.tscn::PackedScene::6880068056140344497::1737559284::0::1::::<><>::uid://dbsv47i7p5va6::::res://Scenes/player.tscn<>uid://irmr0ufltxwc::::res://Scenes/bow1_pickup.tscn<>uid://cy37jtf252aor::::res://Scenes/sword1_pickp.tscn<>uid://bm1ypsg65n3nw::::res://Scenes/procedeal (2).tscn
 village.tscn::PackedScene::6032683089706506599::1737559284::0::1::::<><>::uid://bwsg8je2k106w::::res://Assets/seasonal sample (summer).png<>uid://dbsv47i7p5va6::::res://Scenes/player.tscn
-::res://Assets/::1737559330
+::res://Assets/::1737559320
 chest-ss.png::CompressedTexture2D::3803082303427884221::1737559283::1737559330::1::::<><>::
 decorative.png::CompressedTexture2D::4136730968755801030::1737559283::1737559330::1::::<><>::
 mainlevbuild.png::CompressedTexture2D::1652688197950384331::1737559283::1737559330::1::::<><>::
@@ -18,7 +18,7 @@ New Piskel-1.png (5).png::CompressedTexture2D::5921694671908731343::1737559283::
 New Piskel-1.png (6).png::CompressedTexture2D::4197565091384222346::1737559283::1737559330::1::::<><>::
 New Piskel-1.png (7).png::CompressedTexture2D::2406502110180375939::1737559283::1737559330::1::::<><>::
 seasonal sample (summer).png::CompressedTexture2D::3968157756588890472::1737559283::1737559330::1::::<><>::
-::res://Assets/Animations/::1737559330
+::res://Assets/Animations/::1737559320
 candleA_01.png::CompressedTexture2D::2753857200111547009::1737559283::1737559330::1::::<><>::
 candleA_02.png::CompressedTexture2D::2464297530749674776::1737559283::1737559330::1::::<><>::
 candleA_03.png::CompressedTexture2D::2181556881582257309::1737559283::1737559330::1::::<><>::
@@ -31,7 +31,7 @@ torch_1.png::CompressedTexture2D::931154947666084861::1737559283::1737559330::1:
 torch_2.png::CompressedTexture2D::6512042541354836946::1737559283::1737559330::1::::<><>::
 torch_3.png::CompressedTexture2D::8609057143881777551::1737559283::1737559330::1::::<><>::
 torch_4.png::CompressedTexture2D::1061838323210232046::1737559283::1737559330::1::::<><>::
-::res://danny/::1737559330
+::res://danny/::1737559320
 Candle 1A.tscn::PackedScene::2338479944255239249::1737559284::0::1::::<><>::uid://bfh8vjmf6ed3n::::res://Assets/Animations/candleA_01.png<>uid://bbdyvdb87y4s7::::res://Assets/Animations/candleA_02.png<>uid://6c06nd6n2uph::::res://Assets/Animations/candleA_03.png<>uid://beay6gv57arxb::::res://Assets/Animations/candleA_04.png<>res://Scripts/animated_sprite_2d.gd
 Candle 2B.tscn::PackedScene::8988074844284409578::1737559284::0::1::::<><>::uid://bq852r0sjibjg::::res://Assets/Animations/candleB_01.png<>uid://b5tj500kwfp6m::::res://Assets/Animations/candleB_02.png<>uid://c14nwoyp07j3o::::res://Assets/Animations/candleB_03.png<>uid://dif8jq5xbsqc7::::res://Assets/Animations/candleB_04.png
 Chest 1A.tscn::PackedScene::2277236549967872757::1737559284::0::1::::<><>::uid://bugihev6fvkwr::::res://Assets/chest-ss.png
@@ -45,15 +45,6 @@ Dungeon Room Start 1L.tscn::PackedScene::2270730701392860080::1737559284::0::1::
 dungeon room start.tscn::PackedScene::4529478165825918761::1737559284::0::1::::<><>::uid://coqlijqy3syu7::::res://Scenes/Dungeon Build TIleset1.tres<>uid://8k1onauprcj6::::res://danny/Candle 1A.tscn<>uid://d1b5jrd54wre5::::res://danny/Candle 2B.tscn<>uid://b68615tba2vuf::::res://danny/Torch 1A.tscn<>res://Scenes/doorys.gd<>res://Scenes/doorys_2.gd<>res://Scenes/doorys_3.gd<>res://Scenes/doorys_4.gd<>uid://7pd0u1rhi0nh::::res://danny/Chest 1A.tscn
 Dungeon Rooms Preset.tscn::PackedScene::4490902280887191638::1737559284::0::1::::<><>::uid://by64mcaahxvri::::res://Assets/decorative.png<>uid://xstselkg206r::::res://Assets/mainlevbuild.png<>uid://dbsv47i7p5va6::::res://Scenes/player (2).tscn
 Torch 1A.tscn::PackedScene::4632329564871675065::1737559284::0::1::::<><>::uid://njb8r0tj341f::::res://Assets/Animations/torch_1.png<>uid://cy1qnh7qp2jsc::::res://Assets/Animations/torch_2.png<>uid://duwj6b3y3u4ut::::res://Assets/Animations/torch_3.png<>uid://pemk7jywyujm::::res://Assets/Animations/torch_4.png
-::res://max/::1737559376
-Bird Sounds Spectacular _ Morning Bird Sound.mp3::AudioStreamMP3::4938255332281167618::1737537025::1737559993::1::::<><>::
-char_a_p1_0bas_humn_v01.png::CompressedTexture2D::5890876405469959968::1737537046::1737559994::1::::<><>::
-default_bus_layout.tres::AudioBusLayout::1367814948296104326::1737536921::0::1::::<><>::
-Foresty_Music.mp3::AudioStreamMP3::319893122035264187::1737537037::1737559993::1::::<><>::
-mavillage.tscn::PackedScene::5638657018291246125::1737537051::0::1::::<><>::uid://bwsg8je2k106w::::res://seasonal sample (summer).png<>uid://bnr34jdllhp01::::res://max/player_1.tscn<>uid://ccmelxqcp8xha::::res://max/Bird Sounds Spectacular _ Morning Bird Sound.mp3<>uid://daarqe8q5ohr4::::res://max/Foresty_Music.mp3<>res://max/musicnsound.gd
-musicnsound.gd::GDScript::-1::1737537057::0::1::::<>Node<>::
-player_1.gd::GDScript::-1::1737537063::0::1::::<>CharacterBody2D<>::
-player_1.tscn::PackedScene::3335722414486588464::1737537067::0::1::::<><>::res://max/player_1.gd<>uid://ckyiqo4vquvwg::::res://max/char_a_p1_0bas_humn_v01.png
 ::res://Scenes/::1737559320
 bow1 (2).tscn::PackedScene::1447483071542874114::1737559283::0::1::::<><>::res://Scripts/bow_1.gd<>uid://c2i6c6gtt5aje::::res://Assets/New Piskel-1.png (4).png
 bow1.tscn::PackedScene::1447483071542874114::1737559283::0::1::::<><>::res://Scripts/bow_1.gd<>uid://c2i6c6gtt5aje::::res://Assets/New Piskel-1.png (4).png

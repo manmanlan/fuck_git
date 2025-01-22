@@ -1,10 +1,8 @@
 res://main.tscn
 res://Scenes/Dungeon Build TIleset1.tres
-res://danny/Dungeon Room Boss1 L1.tscn
-res://village.tscn
-res://danny/Dungeon Room Alter.tscn
-res://danny/Dungeon Room 1A.tscn
 res://Scenes/Dungeon Rooms Preset.tscn
 res://Scenes/dungeon room start.tscn
-res://Scenes/door.gd
+res://danny/Dungeon Room Alter.tscn
+res://danny/Dungeon Room 1A.tscn
+res://danny/Dungeon Room Boss1 L1.tscn
 res://danny/Chest 1A.tscn

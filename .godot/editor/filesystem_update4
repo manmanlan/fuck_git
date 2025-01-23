@@ -10,3 +10,4 @@ res://Scenes/player.tscn
 res://max/mavillage.tscn
 res://max/player_1.tscn
 res://default_bus_layout.tres
+res://max/player_1.gd

@@ -65,3 +65,4 @@ func update_sprite() -> void:
 	# Update the sprite's region rect
 	sprite.region_rect = Rect2(Vector2(frame_x * 64, frame_y * 64), Vector2(64, 64))
 	print("Updated region rect: ", sprite.region_rect)
+	

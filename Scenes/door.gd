@@ -3,7 +3,7 @@ extends Area2D
 
 
 
-const ROOM_2 s= preload("res://room_2.tscn")
+const DUNGEON_ROOMS_PRESET = preload("res://danny/Dungeon Rooms Preset.tscn")
 var v1 = true
 
 func _on_body_entered(body: Node2D) -> void:
@@ -14,6 +14,6 @@ func _on_body_entered(body: Node2D) -> void:
 			v1 = false
 
 func spawn(spawn_position: Vector2) -> void:
-	var ROOM_2_temp = ROOM_2.instantiate()
+	var ROOM_2_temp = DUNGEON_ROOMS_PRESET.instantiate()
 	add_child(ROOM_2_temp)
 	ROOM_2_temp.position = spawn_position

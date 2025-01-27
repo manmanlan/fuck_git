@@ -1,5 +1,4 @@
 extends TileMap
 
 
-func spawwall():
-	print("jwd")
+var v1=true

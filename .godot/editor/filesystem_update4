@@ -6,4 +6,13 @@ res://Scenes/dungeon room start.tscn
 res://danny/Dungeon Room 1A.tscn
 res://danny/Dungeon Only Walls.tscn
 res://danny/Dungeon Room Boss1 L1.tscn
+res://Scenes/door_2.gd
 res://Scenes/door_checker_2.gd
+res://Scenes/dungeon_only_walls.gd
+res://Scenes/door.gd
+res://Scenes/doory.gd
+res://Scenes/doory_2.gd
+res://boss.tscn
+res://boss.gd
+res://player.tscn
+res://camera_2d.tscn

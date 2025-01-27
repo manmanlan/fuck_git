@@ -1,7 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://dbsv47i7p5va6"]
+[gd_scene load_steps=11 format=3 uid="uid://dbsv47i7p5va6"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_5ps0r"]
 [ext_resource type="Texture2D" uid="uid://c27dghbswawjp" path="res://Assets/New Piskel (3).png" id="2_lrrqm"]
+[ext_resource type="PackedScene" uid="uid://d3ec7pk60ju02" path="res://camera_2d.tscn" id="3_35qga"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sbed1"]
 size = Vector2(8, 12)
@@ -87,5 +88,7 @@ shape = SubResource("RectangleShape2D_rk3mc")
 [node name="hurt_frames" type="Timer" parent="."]
 wait_time = 0.5
 one_shot = true
+
+[node name="Camera2D" parent="." instance=ExtResource("3_35qga")]
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

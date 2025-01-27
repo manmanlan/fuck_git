@@ -1,8 +1,9 @@
 extends Area2D
 
 
-const ROOM_2 = preload("res://room_2.tscn")
-var v1=true
+
+const ROOM_2 = preload("res://danny/Dungeon Room 1A.tscn")
+var v1 = true
 
 
 

@@ -1,13 +1,20 @@
-[gd_scene load_steps=10 format=3 uid="uid://ctsqq48nrofsn"]
+[gd_scene load_steps=15 format=3 uid="uid://ctsqq48nrofsn"]
 
 [ext_resource type="TileSet" uid="uid://coqlijqy3syu7" path="res://Scenes/Dungeon Build TIleset1.tres" id="1_cr47e"]
 [ext_resource type="PackedScene" uid="uid://8k1onauprcj6" path="res://Scenes/Candle 1A.tscn" id="2_qh1iu"]
 [ext_resource type="PackedScene" uid="uid://d1b5jrd54wre5" path="res://Scenes/Candle 2B.tscn" id="3_bpwq3"]
 [ext_resource type="PackedScene" uid="uid://b68615tba2vuf" path="res://Scenes/Torch 1A.tscn" id="4_lv83a"]
 [ext_resource type="Script" path="res://Scenes/doorys.gd" id="5_u3lrd"]
+[ext_resource type="Script" path="res://Scenes/door_checkerm.gd" id="5_uivnx"]
+[ext_resource type="Script" path="res://Scenes/door_checker_2m.gd" id="6_7q0ta"]
 [ext_resource type="Script" path="res://Scenes/doorys_2.gd" id="6_nnisj"]
+[ext_resource type="Script" path="res://Scenes/door_checkerym.gd" id="7_188g0"]
 [ext_resource type="Script" path="res://Scenes/doorys_3.gd" id="7_gdwqm"]
 [ext_resource type="Script" path="res://Scenes/doorys_4.gd" id="8_d0iof"]
+[ext_resource type="Script" path="res://Scenes/door_checkery_2m.gd" id="8_u7clo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3g3i4"]
+size = Vector2(2, 36)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hduja"]
 size = Vector2(2, 36)
@@ -98,6 +105,48 @@ autoplay = "default"
 position = Vector2(524, 29)
 autoplay = "new_animation"
 
+[node name="door checker" type="Area2D" parent="TileMap2"]
+position = Vector2(600, -184)
+script = ExtResource("5_uivnx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap2/door checker"]
+shape = SubResource("RectangleShape2D_3g3i4")
+
+[node name="Timer" type="Timer" parent="TileMap2/door checker"]
+one_shot = true
+
+[node name="door checker2" type="Area2D" parent="TileMap2"]
+position = Vector2(-168, -184)
+script = ExtResource("6_7q0ta")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap2/door checker2"]
+shape = SubResource("RectangleShape2D_3g3i4")
+
+[node name="Timer" type="Timer" parent="TileMap2/door checker2"]
+one_shot = true
+
+[node name="door checkery" type="Area2D" parent="TileMap2"]
+position = Vector2(216, -408)
+script = ExtResource("7_188g0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap2/door checkery"]
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_3g3i4")
+
+[node name="Timer" type="Timer" parent="TileMap2/door checkery"]
+one_shot = true
+
+[node name="door checkery2" type="Area2D" parent="TileMap2"]
+position = Vector2(216, 40)
+script = ExtResource("8_u7clo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap2/door checkery2"]
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_3g3i4")
+
+[node name="Timer" type="Timer" parent="TileMap2/door checkery2"]
+one_shot = true
+
 [node name="doorys" type="Area2D" parent="." groups=["door"]]
 position = Vector2(200, 72)
 script = ExtResource("5_u3lrd")
@@ -132,6 +181,18 @@ script = ExtResource("8_d0iof")
 rotation = 1.5708
 shape = SubResource("RectangleShape2D_hduja")
 
+[connection signal="area_entered" from="TileMap2/door checker" to="TileMap2/door checker" method="_on_area_entered"]
+[connection signal="area_shape_entered" from="TileMap2/door checker" to="TileMap2/door checker" method="_on_area_shape_entered"]
+[connection signal="body_entered" from="TileMap2/door checker" to="TileMap2/door checker" method="_on_body_entered"]
+[connection signal="area_entered" from="TileMap2/door checker2" to="TileMap2/door checker2" method="_on_area_entered"]
+[connection signal="area_shape_entered" from="TileMap2/door checker2" to="TileMap2/door checker2" method="_on_area_shape_entered"]
+[connection signal="body_entered" from="TileMap2/door checker2" to="TileMap2/door checker2" method="_on_body_entered"]
+[connection signal="area_entered" from="TileMap2/door checkery" to="TileMap2/door checkery" method="_on_area_entered"]
+[connection signal="area_shape_entered" from="TileMap2/door checkery" to="TileMap2/door checkery" method="_on_area_shape_entered"]
+[connection signal="body_entered" from="TileMap2/door checkery" to="TileMap2/door checkery" method="_on_body_entered"]
+[connection signal="area_entered" from="TileMap2/door checkery2" to="TileMap2/door checkery2" method="_on_area_entered"]
+[connection signal="area_shape_entered" from="TileMap2/door checkery2" to="TileMap2/door checkery2" method="_on_area_shape_entered"]
+[connection signal="body_entered" from="TileMap2/door checkery2" to="TileMap2/door checkery2" method="_on_body_entered"]
 [connection signal="area_shape_entered" from="doorys" to="doorys" method="_on_area_shape_entered"]
 [connection signal="body_entered" from="doorys" to="doorys" method="_on_body_entered"]
 [connection signal="area_shape_entered" from="doorys2" to="doorys2" method="_on_area_shape_entered"]

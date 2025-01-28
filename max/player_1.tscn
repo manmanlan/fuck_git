@@ -23,8 +23,7 @@ texture = ExtResource("2_igdnx")
 region_enabled = true
 region_rect = Rect2(0, 0, 64, 64)
 
-[node name="Hat1" type="Sprite2D" parent="."]
-visible = false
+[node name="Hat" type="Sprite2D" parent="."]
 texture = ExtResource("3_f80vk")
 region_enabled = true
 region_rect = Rect2(0, 0, 64, 64)

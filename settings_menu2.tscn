@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://b62apwotr8aww"]
+[gd_scene load_steps=3 format=3 uid="uid://br8266c0omk4a"]
 
-[ext_resource type="Script" path="res://danny/settings_menu.gd" id="1_d14xe"]
-[ext_resource type="Script" path="res://danny/audio_options.gd" id="2_bj6h2"]
+[ext_resource type="Script" path="res://settings_menu2.gd" id="1_8yfaj"]
+[ext_resource type="Script" path="res://danny/audio_options.gd" id="2_8ould"]
 
 [node name="Settings Menu" type="Control"]
 process_mode = 3
@@ -11,13 +11,13 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_d14xe")
+script = ExtResource("1_8yfaj")
 
 [node name="AudioOptions" type="Control" parent="."]
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
-script = ExtResource("2_bj6h2")
+script = ExtResource("2_8ould")
 
 [node name="MarginContainer" type="MarginContainer" parent="AudioOptions"]
 layout_mode = 0

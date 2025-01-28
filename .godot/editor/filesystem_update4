@@ -2,6 +2,14 @@ res://main.tscn
 res://Scenes/Dungeon Build TIleset1.tres
 res://danny/main_menu.tscn
 res://danny/Settings_menu.tscn
-res://danny/Settings_Sound_menu.tscn
 res://danny/Pause_menu.tscn
-res://main.gd
+res://danny/Dungeon Room 1B.tscn
+res://max/mavillage.tscn
+res://danny/Dungeon Room Start 1L.tscn
+res://danny/Dungeon Room Boss1 L1.tscn
+res://danny/main_menu.gd
+res://danny/pause_menu.gd
+res://Scripts/Global.gd
+res://danny/settings_menu.gd
+res://settings_menu2.gd
+res://settings_menu2.tscn

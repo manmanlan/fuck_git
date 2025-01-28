@@ -1,14 +1,14 @@
 Control
+Node2D
+CanvasLayer
 MarginContainer
 VBoxContainer
 ColorRect
 SubViewport
 Node
 Panel
-CanvasLayer
 OptionButton
 HSlider
 MenuButton
 TextEdit
 Button
-CollisionShape2D

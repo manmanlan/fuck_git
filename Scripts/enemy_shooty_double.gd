@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-const ENEMEY_BULLET = preload("res://enemey_bullet.tscn")
+const ENEMEY_BULLET = preload("res://Scenes/enemey_bullet.tscn")
 var speed = 50
 var target_direction
 var shoot = false

@@ -9,10 +9,10 @@ func set_previous_scene(scene_path):
 
 # Function for the back button to return to the previous scene
 func _on_back_pressed():
-	AudioServer.set_bus_volume_db(0, linear_to_db($"AudioOptions/MarginContainer/VBoxContainer/Master Vol".value))
-	AudioServer.set_bus_volume_db(1, linear_to_db($"AudioOptions/MarginContainer/VBoxContainer/SFX Vol".value))
-	AudioServer.set_bus_volume_db(2, linear_to_db($"AudioOptions/MarginContainer/VBoxContainer/Music Vol".value))
+	AudioServer.set_bus_volume_db(0, linear_to_db($"CanvasLayer/Panel/VBoxContainer/Master Vol".value))
+	AudioServer.set_bus_volume_db(1, linear_to_db($"CanvasLayer/Panel/VBoxContainer/SFX Vol".value))
+	AudioServer.set_bus_volume_db(2, linear_to_db($"CanvasLayer/Panel/VBoxContainer/Music Vol".value))
 	if Global.previous_scene != "":
 		get_tree().change_scene_to_file(Global.previous_scene)
 	else:
-		print("Previous scene path not set.")	
+		print("Previous scene path not set.")
